@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1827fa4e-fc42-41bf-9a21-584ca8e5f7c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/qlct_fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/qlct_fe/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/qlct_fe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qlct_fe/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/qlct_fe" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3DhOlY1wUhhmFewovS4MSLDwIp3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/TrinhVanBan/TRINHVANBAN_22CT3/DevOps/DA_devops_QLyChiTieu/FE_QLChiTieu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1827fa4e-fc42-41bf-9a21-584ca8e5f7c8" name="Changes" comment="" />
+      <created>1778730986937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778730986937</updated>
+      <workItem from="1778730987959" duration="1996000" />
+      <workItem from="1778808514100" duration="601000" />
+      <workItem from="1778895588621" duration="2577000" />
+      <workItem from="1779937446053" duration="601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
