@@ -43,3 +43,11 @@ cd FE_QLChiTieu/qlct_fe
 npm install
 npm run dev
 ```
+
+## CI/CD
+
+Đã thêm GitHub Actions workflow tại `.github/workflows/ci-cd.yml`.
+- Chạy unit test và build backend Spring Boot
+- Cài đặt và build frontend Vite
+- Xây dựng ảnh Docker cho backend và frontend
+- Có bước publish Docker Hub tùy chọn khi `DOCKERHUB_USERNAME` và `DOCKERHUB_TOKEN` được cấu hình
