@@ -26,7 +26,7 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://expense-frontend.onrender.com"  // ← URL frontend Render
+                                "https://expense-frontend-cjpp.onrender.com"  // ← URL frontend Render
                         )
                         .allowedOrigins(origins)
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
