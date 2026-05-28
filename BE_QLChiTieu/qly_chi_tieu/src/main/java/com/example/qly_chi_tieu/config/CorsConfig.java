@@ -7,10 +7,39 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+//@Configuration
+//public class CorsConfig {
+//
+//    @Value("${app.cors.allowed-origins}")
+//    private String allowedOrigins;
+//
+//    @Bean
+//    public WebMvcConfigurer corsConfigurer() {
+//        return new WebMvcConfigurer() {
+//            @Override
+//            public void addCorsMappings(CorsRegistry registry) {
+//                String[] origins = Arrays.stream(allowedOrigins.split(","))
+//                        .map(String::trim)
+//                        .filter(origin -> !origin.isBlank())
+//                        .toArray(String[]::new);
+//
+//                registry.addMapping("/api/**")
+//                        .allowedOrigins(
+//                                "http://localhost:5173",
+//                                "https://expense-frontend-cjpp.onrender.com"  // ← URL frontend Render
+//                        )
+//                        .allowedOrigins(origins)
+//                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+//                        .allowedHeaders("*");
+//            }
+//        };
+//    }
+//}
+
 @Configuration
 public class CorsConfig {
 
-    @Value("${app.cors.allowed-origins}")
+    @Value("${app.cors.allowed-origins:http://localhost:5173}")
     private String allowedOrigins;
 
     @Bean
@@ -18,19 +47,14 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                String[] origins = Arrays.stream(allowedOrigins.split(","))
-                        .map(String::trim)
-                        .filter(origin -> !origin.isBlank())
-                        .toArray(String[]::new);
-
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://expense-frontend-cjpp.onrender.com"  // ← URL frontend Render
+                                "https://expense-frontend-cjpp.onrender.com"
                         )
-                        .allowedOrigins(origins)
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                        .allowedHeaders("*");
+                        .allowedHeaders("*")
+                        .allowCredentials(false);
             }
         };
     }
